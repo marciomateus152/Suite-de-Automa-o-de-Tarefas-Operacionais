@@ -9,6 +9,9 @@ import sys
 import time
 from pathlib import Path
 
+sys.stdout.reconfigure(encoding="utf-8")
+sys.stderr.reconfigure(encoding="utf-8")
+
 import pandas as pd
 from openpyxl import load_workbook
 from openpyxl.styles import Alignment, Font, PatternFill
@@ -109,7 +112,7 @@ def clean_dataframe(df: pd.DataFrame) -> tuple[pd.DataFrame, dict]:
     metrics["blank_rows_removed"] = before - len(df)
 
     # Normaliza espaços em strings
-    str_cols = df.select_dtypes(include="object").columns
+    str_cols = df.select_dtypes(include="str").columns
     df[str_cols] = df[str_cols].apply(lambda s: s.str.strip())
 
     # Remove duplicatas (exclui a coluna de origem do critério)

@@ -11,6 +11,9 @@ import sys
 import time
 from pathlib import Path
 
+sys.stdout.reconfigure(encoding="utf-8")
+sys.stderr.reconfigure(encoding="utf-8")
+
 import pandas as pd
 
 # ---------------------------------------------------------------------------

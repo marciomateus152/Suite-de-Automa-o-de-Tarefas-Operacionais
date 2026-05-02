@@ -14,6 +14,9 @@ import time
 from datetime import datetime
 from pathlib import Path
 
+sys.stdout.reconfigure(encoding="utf-8")
+sys.stderr.reconfigure(encoding="utf-8")
+
 try:
     import psutil
 except ImportError:

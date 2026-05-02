@@ -245,7 +245,11 @@ main() {
         latest=$(find "$BACKUP_DEST" -maxdepth 1 -name "backup_${dir_name}_*.tar.*" \
                  | sort | tail -n 1)
         if [[ -n "$latest" && "$DRY_RUN" == false ]]; then
-            verify_backup "$latest" && (( success++ )) || (( failure++ ))
+            if verify_backup "$latest"; then
+                success=$(( success + 1 ))
+            else
+                failure=$(( failure + 1 ))
+            fi
         fi
 
         rotate_backups "$dir_name" "$BACKUP_DEST"
