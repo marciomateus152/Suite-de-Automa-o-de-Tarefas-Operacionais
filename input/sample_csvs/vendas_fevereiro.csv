@@ -1,0 +1,12 @@
+id,nome,email,telefone,produto,valor,data_venda,regiao
+11,Karine Oliveira,karine.oliveira@email.com,(12) 88765-4321,Tablet,899.00,01/02/2024,Sudeste
+12,Lucas Martins,lucas.martins@email.com,(13) 87654-3210,Smartphone,2100.00,02/02/2024,Sudeste
+13,Mariana Souza,mariana.souza@email.com,(14) 86543-2109,Notebook,4200.00,03/02/2024,Sudeste
+14,Nicolas Barbosa,nicolas@email.com,(15) 85432-1098,Mouse,75.00,04/02/2024,Sudeste
+15,Olivia Castro,olivia.castro@email.com,(16) 84321-0987,Teclado,189.00,05/02/2024,Sudeste
+16,Paulo Dias,paulo.dias@email.com,(17) 83210-9876,Monitor,980.00,06/02/2024,Sudeste
+17,Queila Nunes,queila.nunes@email.com,(18) 82109-8765,Headset,349.00,07/02/2024,Sul
+18,Rafael Torres,rafael@email.com,(19) 81098-7654,Webcam,220.00,08/02/2024,Sul
+19,Sabrina Vieira,sabrina.vieira@email.com,(20) 80987-6543,SSD 2TB,680.00,09/02/2024,Sul
+20,Thiago Cardoso,thiago.cardoso@email.com,(21) 79876-5432,Impressora,820.00,10/02/2024,Sudeste
+,,,,,,,

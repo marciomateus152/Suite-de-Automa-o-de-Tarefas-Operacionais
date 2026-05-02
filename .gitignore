@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs (manter estrutura, ignorar conteúdo)
+logs/*.log
+logs/*.log.*
+
+# Outputs gerados
+output/*.csv
+output/*.xlsx
+output/*.json
+
+# Backups gerados
+backups/*.tar.gz
+backups/*.tar.bz2
+backups/*.tar.xz
+
+# Dados sensíveis de entrada
+input/*.csv
+input/*.xlsx
+!input/sample_csvs/
+!input/raw_data.csv
+.claude/

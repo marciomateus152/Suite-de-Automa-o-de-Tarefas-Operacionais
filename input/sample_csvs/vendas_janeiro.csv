@@ -1,0 +1,12 @@
+id,nome,email,telefone,produto,valor,data_venda,regiao
+1,Ana Silva,ana.silva@email.com,(11) 98765-4321,Notebook,3500.00,15/01/2024,Sul
+2,Bruno Costa,bruno.costa@email.com,(21) 97654-3210,Mouse,89.90,16/01/2024,Sudeste
+3,Carla Mendes,carla.mendes@email.com,(31) 96543-2109,Teclado,159.90,17/01/2024,Sudeste
+4,Diego Rocha,diego.rocha@email.com,(41) 95432-1098,Monitor,1200.00,18/01/2024,Sul
+5,Elena Ferreira,elena@email.com,(51) 94321-0987,Headset,299.00,19/01/2024,Sul
+6,Felipe Santos,felipe.santos@email.com,(61) 93210-9876,Webcam,199.00,20/01/2024,Centro-Oeste
+7,Gabriela Lima,gabriela.lima@email.com,(71) 92109-8765,SSD 1TB,450.00,21/01/2024,Nordeste
+8,Henrique Alves,henrique@email.com,(81) 91098-7654,Impressora,750.00,22/01/2024,Nordeste
+9,Isabela Cruz,isabela.cruz@email.com,(91) 90987-6543,Roteador,280.00,23/01/2024,Norte
+10,João Pereira,joao.pereira@email.com,(11) 89876-5432,Notebook,3200.00,24/01/2024,Sudeste
+1,Ana Silva,ana.silva@email.com,(11) 98765-4321,Notebook,3500.00,15/01/2024,Sul
